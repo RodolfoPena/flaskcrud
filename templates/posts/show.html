@@ -1,0 +1,7 @@
+{% extends 'application.html' %}
+
+{% block content %}
+  <p>{{ post.id }}</p>
+  <p>{{ post.content }}</p>
+  <a href="{{ url_for('posts_index')}}">Back</a>
+{% endblock %}
